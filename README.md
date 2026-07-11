@@ -10,7 +10,6 @@ Dibuat karena kalau download manual satu-satu di web tersebut cukup ribet — ha
 - 📋 Cukup salin-tempel semua link ke `input.txt`
 - 📊 Progress bar untuk setiap file yang sedang didownload
 - 🎨 Output log berwarna (info, success, error, warning) biar enak dibaca
-- 🗑️ Link yang sudah berhasil didownload otomatis dihapus dari `input.txt`
 - 📂 File hasil download otomatis tersimpan rapi di folder `downloads/`
 
 ## Instalasi
@@ -23,9 +22,10 @@ Pastikan Python 3 sudah terinstall, lalu install dependency yang dibutuhkan:
 
 1. Buat file `input.txt` di folder yang sama dengan skrip.
 2. Isi `input.txt` dengan link-link FuckingFast, satu link per baris. Contoh:
-   `https://fuckingfast.co/xxxxxxxx`
-   `https://fuckingfast.co/yyyyyyyy`
-   `https://fuckingfast.co/zzzzzzzz`
+`https://fuckingfast.co/uniqueid#blablabla_--_.part07.rar`
+`https://fuckingfast.co/uniqueid#blablabla_--_.part08.rar`
+`https://fuckingfast.co/uniqueid#blablabla_--_.part09.rar`
+`https://fuckingfast.co/uniqueid#blablabla_--_.part10.rar`
 3. Jalankan skrip:
    `python main.py`
 4. Skrip akan memproses link satu per satu:
@@ -69,7 +69,6 @@ This was built because manually downloading one file at a time on that site is t
 - 📋 Just copy-paste all links into `input.txt`
 - 📊 Progress bar for each file being downloaded
 - 🎨 Colored log output (info, success, error, warning) for easy reading
-- 🗑️ Successfully downloaded links are automatically removed from `input.txt`
 - 📂 Downloaded files are neatly saved in the `downloads/` folder
 
 ## Installation
@@ -82,9 +81,10 @@ Make sure Python 3 is installed, then install the required dependencies:
 
 1. Create an `input.txt` file in the same folder as the script.
 2. Fill `input.txt` with FuckingFast links, one link per line. Example:
-   `https://fuckingfast.co/xxxxxxxx`
-   `https://fuckingfast.co/yyyyyyyy`
-   `https://fuckingfast.co/zzzzzzzz`
+`https://fuckingfast.co/uniqueid#blablabla_--_.part07.rar`
+`https://fuckingfast.co/uniqueid#blablabla_--_.part08.rar`
+`https://fuckingfast.co/uniqueid#blablabla_--_.part09.rar`
+`https://fuckingfast.co/uniqueid#blablabla_--_.part10.rar`
 3. Run the script:
    `python main.py`
 4. The script will process each link one by one:
